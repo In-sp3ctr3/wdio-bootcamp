@@ -7,7 +7,7 @@ const Page = require('./page');
 class OrderHistoryPage extends Page {
 
     get accountDropdown () {
-        return $("//div[@class='panel header']//button[@class='action switch']");
+        return $(".panel.header>ul>li:nth-child(2)>span>button");
     }
 
     get accountLink () {

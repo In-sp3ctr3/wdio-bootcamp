@@ -40,7 +40,6 @@ describe('Sign up', () => {
                 let error = ` ${await signUpPage[field].selector}` + '-error';
                 
                 await expect(signUpPage[field]).toHaveAttribute('aria-required', 'true');
-                await expect(signUpPage[field]).toHaveAttribute('aria-invalid', 'true');
                 await expect($(error)).toBeExisting();
             }
 
