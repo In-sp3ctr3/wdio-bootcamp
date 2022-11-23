@@ -17,6 +17,7 @@
     "@wdio/local-runner": "^7.26.0",
     "@wdio/mocha-framework": "^7.26.0",
     "@wdio/selenium-standalone-service": "^7.26.0",
-    "@wdio/spec-reporter": "^7.26.0"
+    "@wdio/spec-reporter": "^7.26.0",
+    "wdio-safaridriver-service": "^2.0.0"
   }
 }
