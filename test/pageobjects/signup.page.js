@@ -33,7 +33,7 @@ class SignupPage extends Page {
     }
 
     get signupButton () {
-        return $('.submit');
+        return $(".primary.submit[type='submit']");
     }
 
     get errorFlash () {
